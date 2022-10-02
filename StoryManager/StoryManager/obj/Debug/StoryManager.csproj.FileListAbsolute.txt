@@ -1,0 +1,14 @@
+D:\TailieuCNTT\ThietkeCSDL\StoryManager\StoryManager\bin\Debug\StoryManager.exe.config
+D:\TailieuCNTT\ThietkeCSDL\StoryManager\StoryManager\bin\Debug\StoryManager.exe
+D:\TailieuCNTT\ThietkeCSDL\StoryManager\StoryManager\bin\Debug\StoryManager.pdb
+D:\TailieuCNTT\ThietkeCSDL\StoryManager\StoryManager\bin\Debug\Guna.Charts.WinForms.dll
+D:\TailieuCNTT\ThietkeCSDL\StoryManager\StoryManager\bin\Debug\Guna.UI2.dll
+D:\TailieuCNTT\ThietkeCSDL\StoryManager\StoryManager\obj\Debug\StoryManager.Dangnhap.resources
+D:\TailieuCNTT\ThietkeCSDL\StoryManager\StoryManager\obj\Debug\StoryManager.Properties.Resources.resources
+D:\TailieuCNTT\ThietkeCSDL\StoryManager\StoryManager\obj\Debug\StoryManager.csproj.GenerateResource.cache
+D:\TailieuCNTT\ThietkeCSDL\StoryManager\StoryManager\obj\Debug\StoryManager.csproj.CoreCompileInputs.cache
+D:\TailieuCNTT\ThietkeCSDL\StoryManager\StoryManager\obj\Debug\StoryManager.csproj.CopyComplete
+D:\TailieuCNTT\ThietkeCSDL\StoryManager\StoryManager\obj\Debug\StoryManager.exe
+D:\TailieuCNTT\ThietkeCSDL\StoryManager\StoryManager\obj\Debug\StoryManager.pdb
+D:\TailieuCNTT\ThietkeCSDL\StoryManager\StoryManager\obj\Debug\StoryManager.csproj.AssemblyReference.cache
+D:\TailieuCNTT\ThietkeCSDL\StoryManager\StoryManager\obj\Debug\StoryManager.Trangchu.resources
