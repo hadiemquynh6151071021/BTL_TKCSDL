@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32602.291
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SoucreCode_SM", "SoucreCode_SM\SoucreCode_SM.csproj", "{9310D59A-E93B-408F-9697-B9B0CAA1BA5B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9310D59A-E93B-408F-9697-B9B0CAA1BA5B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9310D59A-E93B-408F-9697-B9B0CAA1BA5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9310D59A-E93B-408F-9697-B9B0CAA1BA5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9310D59A-E93B-408F-9697-B9B0CAA1BA5B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1677AD7E-6047-4550-849E-117FB798300E}
+	EndGlobalSection
+EndGlobal

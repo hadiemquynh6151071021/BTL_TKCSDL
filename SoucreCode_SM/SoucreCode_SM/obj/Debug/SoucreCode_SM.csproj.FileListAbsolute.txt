@@ -1,0 +1,14 @@
+D:\TailieuCNTT\ThietkeCSDL\SoucreCode_SM\SoucreCode_SM\bin\Debug\SoucreCode_SM.exe.config
+D:\TailieuCNTT\ThietkeCSDL\SoucreCode_SM\SoucreCode_SM\bin\Debug\SoucreCode_SM.exe
+D:\TailieuCNTT\ThietkeCSDL\SoucreCode_SM\SoucreCode_SM\bin\Debug\SoucreCode_SM.pdb
+D:\TailieuCNTT\ThietkeCSDL\SoucreCode_SM\SoucreCode_SM\bin\Debug\Guna.Charts.WinForms.dll
+D:\TailieuCNTT\ThietkeCSDL\SoucreCode_SM\SoucreCode_SM\bin\Debug\Guna.UI2.dll
+D:\TailieuCNTT\ThietkeCSDL\SoucreCode_SM\SoucreCode_SM\obj\Debug\SoucreCode_SM.csproj.AssemblyReference.cache
+D:\TailieuCNTT\ThietkeCSDL\SoucreCode_SM\SoucreCode_SM\obj\Debug\SoucreCode_SM.Dangnhap.resources
+D:\TailieuCNTT\ThietkeCSDL\SoucreCode_SM\SoucreCode_SM\obj\Debug\SoucreCode_SM.Properties.Resources.resources
+D:\TailieuCNTT\ThietkeCSDL\SoucreCode_SM\SoucreCode_SM\obj\Debug\SoucreCode_SM.csproj.GenerateResource.cache
+D:\TailieuCNTT\ThietkeCSDL\SoucreCode_SM\SoucreCode_SM\obj\Debug\SoucreCode_SM.csproj.CoreCompileInputs.cache
+D:\TailieuCNTT\ThietkeCSDL\SoucreCode_SM\SoucreCode_SM\obj\Debug\SoucreCode_SM.csproj.CopyComplete
+D:\TailieuCNTT\ThietkeCSDL\SoucreCode_SM\SoucreCode_SM\obj\Debug\SoucreCode_SM.exe
+D:\TailieuCNTT\ThietkeCSDL\SoucreCode_SM\SoucreCode_SM\obj\Debug\SoucreCode_SM.pdb
+D:\TailieuCNTT\ThietkeCSDL\SoucreCode_SM\SoucreCode_SM\obj\Debug\SoucreCode_SM.Trangchu.resources

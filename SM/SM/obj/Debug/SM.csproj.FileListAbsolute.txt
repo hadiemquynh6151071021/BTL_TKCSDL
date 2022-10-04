@@ -1,0 +1,14 @@
+D:\TailieuCNTT\ThietkeCSDL\SM\SM\bin\Debug\SM.exe.config
+D:\TailieuCNTT\ThietkeCSDL\SM\SM\bin\Debug\SM.exe
+D:\TailieuCNTT\ThietkeCSDL\SM\SM\bin\Debug\SM.pdb
+D:\TailieuCNTT\ThietkeCSDL\SM\SM\bin\Debug\Guna.Charts.WinForms.dll
+D:\TailieuCNTT\ThietkeCSDL\SM\SM\bin\Debug\Guna.UI2.dll
+D:\TailieuCNTT\ThietkeCSDL\SM\SM\obj\Debug\SM.csproj.AssemblyReference.cache
+D:\TailieuCNTT\ThietkeCSDL\SM\SM\obj\Debug\SM.Properties.Resources.resources
+D:\TailieuCNTT\ThietkeCSDL\SM\SM\obj\Debug\SM.csproj.GenerateResource.cache
+D:\TailieuCNTT\ThietkeCSDL\SM\SM\obj\Debug\SM.csproj.CoreCompileInputs.cache
+D:\TailieuCNTT\ThietkeCSDL\SM\SM\obj\Debug\SM.csproj.CopyComplete
+D:\TailieuCNTT\ThietkeCSDL\SM\SM\obj\Debug\SM.exe
+D:\TailieuCNTT\ThietkeCSDL\SM\SM\obj\Debug\SM.pdb
+D:\TailieuCNTT\ThietkeCSDL\SM\SM\obj\Debug\SM.Dangnhap.resources
+D:\TailieuCNTT\ThietkeCSDL\SM\SM\obj\Debug\SM.Form1.resources
