@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace SM
 {
-    public partial class InsertCoupon : Form
+    public partial class ResultSearchComic : Form
     {
-        public InsertCoupon()
+        public ResultSearchComic()
         {
             InitializeComponent();
         }

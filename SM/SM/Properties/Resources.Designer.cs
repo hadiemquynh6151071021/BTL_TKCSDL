@@ -83,6 +83,26 @@ namespace SM.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap icons8_add_bookmark_48 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-add-bookmark-48", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_create_46 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-create-46", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap icons8_delete_40 {
             get {
                 object obj = ResourceManager.GetObject("icons8-delete-40", resourceCulture);
@@ -106,6 +126,16 @@ namespace SM.Properties {
         internal static System.Drawing.Bitmap icons8_logout_30 {
             get {
                 object obj = ResourceManager.GetObject("icons8-logout-30", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_report_card_46 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-report-card-46", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

@@ -52,35 +52,80 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Dangnhap.cs">
+    <Compile Include="EditStaff.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Dangnhap.Designer.cs">
-      <DependentUpon>Dangnhap.cs</DependentUpon>
+    <Compile Include="EditStaff.Designer.cs">
+      <DependentUpon>EditStaff.cs</DependentUpon>
     </Compile>
-    <Compile Include="InsertCoupon.cs">
+    <Compile Include="ResultSearchStaff.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="InsertCoupon.Designer.cs">
-      <DependentUpon>InsertCoupon.cs</DependentUpon>
+    <Compile Include="ResultSearchStaff.Designer.cs">
+      <DependentUpon>ResultSearchStaff.cs</DependentUpon>
     </Compile>
-    <Compile Include="Trangchu.cs">
+    <Compile Include="InsertStaff.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InsertStaff.Designer.cs">
+      <DependentUpon>InsertStaff.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EditComic.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditComic.Designer.cs">
+      <DependentUpon>EditComic.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ResultSearchComic.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ResultSearchComic.Designer.cs">
+      <DependentUpon>ResultSearchComic.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InsertComic.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InsertComic.Designer.cs">
+      <DependentUpon>InsertComic.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Home.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include=".Designer.cs">
-      <DependentUpon>Trangchu.cs</DependentUpon>
+      <DependentUpon>Home.cs</DependentUpon>
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Dangnhap.resx">
-      <DependentUpon>Dangnhap.cs</DependentUpon>
+    <EmbeddedResource Include="EditStaff.resx">
+      <DependentUpon>EditStaff.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="InsertCoupon.resx">
-      <DependentUpon>InsertCoupon.cs</DependentUpon>
+    <EmbeddedResource Include="ResultSearchStaff.resx">
+      <DependentUpon>ResultSearchStaff.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Trangchu.resx">
-      <DependentUpon>Trangchu.cs</DependentUpon>
+    <EmbeddedResource Include="InsertStaff.resx">
+      <DependentUpon>InsertStaff.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditComic.resx">
+      <DependentUpon>EditComic.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ResultSearchComic.resx">
+      <DependentUpon>ResultSearchComic.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InsertComic.resx">
+      <DependentUpon>InsertComic.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Home.resx">
+      <DependentUpon>Home.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -129,6 +174,15 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\icons8-save-30.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-add-bookmark-48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-create-46.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-report-card-46.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

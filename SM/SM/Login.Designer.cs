@@ -1,7 +1,7 @@
 ﻿
 namespace SM
 {
-    partial class Dangnhap
+    partial class Login
     {
         /// <summary>
         /// Required designer variable.

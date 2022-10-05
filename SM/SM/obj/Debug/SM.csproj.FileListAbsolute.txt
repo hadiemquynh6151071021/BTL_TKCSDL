@@ -10,5 +10,9 @@ D:\TailieuCNTT\ThietkeCSDL\SM\SM\obj\Debug\SM.csproj.CoreCompileInputs.cache
 D:\TailieuCNTT\ThietkeCSDL\SM\SM\obj\Debug\SM.csproj.CopyComplete
 D:\TailieuCNTT\ThietkeCSDL\SM\SM\obj\Debug\SM.exe
 D:\TailieuCNTT\ThietkeCSDL\SM\SM\obj\Debug\SM.pdb
-D:\TailieuCNTT\ThietkeCSDL\SM\SM\obj\Debug\SM.Dangnhap.resources
 D:\TailieuCNTT\ThietkeCSDL\SM\SM\obj\Debug\SM.Form1.resources
+D:\TailieuCNTT\ThietkeCSDL\SM\SM\obj\Debug\SM.InsertComic.resources
+D:\TailieuCNTT\ThietkeCSDL\SM\SM\obj\Debug\SM.InsertStaff.resources
+D:\TailieuCNTT\ThietkeCSDL\SM\SM\obj\Debug\SM.Login.resources
+D:\TailieuCNTT\ThietkeCSDL\SM\SM\obj\Debug\SM.EditComic.resources
+D:\TailieuCNTT\ThietkeCSDL\SM\SM\obj\Debug\SM.ResultSearch.resources

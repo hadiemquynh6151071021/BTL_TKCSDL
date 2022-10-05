@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace SM
 {
-    public partial class Dangnhap : Form
+    public partial class Login : Form
     {
-        public Dangnhap()
+        public Login()
         {
             InitializeComponent();
         }
