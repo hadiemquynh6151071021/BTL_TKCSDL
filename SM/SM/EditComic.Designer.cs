@@ -30,24 +30,24 @@ namespace SM
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            this.label7 = new System.Windows.Forms.Label();
-            this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
-            this.gunaBtnInsertReader = new Guna.UI2.WinForms.Guna2Button();
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.lbTitleEditComic = new System.Windows.Forms.Label();
+            this.groupBoxControlsComic = new System.Windows.Forms.GroupBox();
+            this.gunaRefreshEditComic = new Guna.UI2.WinForms.Guna2Button();
+            this.gunaBtnSaveEditComic = new Guna.UI2.WinForms.Guna2Button();
+            this.groupBoxIfComic = new System.Windows.Forms.GroupBox();
             this.numericUpDown1 = new System.Windows.Forms.NumericUpDown();
             this.comboBox3 = new System.Windows.Forms.ComboBox();
             this.comboBox2 = new System.Windows.Forms.ComboBox();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.textBox1 = new System.Windows.Forms.TextBox();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.lbPublishing = new System.Windows.Forms.Label();
+            this.lbComicNumber = new System.Windows.Forms.Label();
+            this.lbComicName = new System.Windows.Forms.Label();
+            this.lbReaderName = new System.Windows.Forms.Label();
+            this.lbAuthorName = new System.Windows.Forms.Label();
+            this.lbIDComic = new System.Windows.Forms.Label();
+            this.pictureBoxEditComic = new System.Windows.Forms.PictureBox();
             this.guna2Elipse1 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
             this.guna2Elipse2 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
             this.guna2Elipse3 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
@@ -55,92 +55,92 @@ namespace SM
             this.guna2Elipse5 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
             this.guna2Elipse6 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
             this.guna2BorderlessForm1 = new Guna.UI2.WinForms.Guna2BorderlessForm(this.components);
-            this.groupBox2.SuspendLayout();
-            this.groupBox1.SuspendLayout();
+            this.groupBoxControlsComic.SuspendLayout();
+            this.groupBoxIfComic.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxEditComic)).BeginInit();
             this.SuspendLayout();
             // 
-            // label7
+            // lbTitleEditComic
             // 
-            this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Segoe UI Black", 25.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(225, 14);
-            this.label7.Name = "label7";
-            this.label7.Padding = new System.Windows.Forms.Padding(0, 0, 30, 0);
-            this.label7.Size = new System.Drawing.Size(408, 59);
-            this.label7.TabIndex = 6;
-            this.label7.Text = "SỬA THÔNG TIN";
+            this.lbTitleEditComic.AutoSize = true;
+            this.lbTitleEditComic.Font = new System.Drawing.Font("Segoe UI Black", 25.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbTitleEditComic.Location = new System.Drawing.Point(225, 14);
+            this.lbTitleEditComic.Name = "lbTitleEditComic";
+            this.lbTitleEditComic.Padding = new System.Windows.Forms.Padding(0, 0, 30, 0);
+            this.lbTitleEditComic.Size = new System.Drawing.Size(408, 59);
+            this.lbTitleEditComic.TabIndex = 6;
+            this.lbTitleEditComic.Text = "SỬA THÔNG TIN";
             // 
-            // groupBox2
+            // groupBoxControlsComic
             // 
-            this.groupBox2.Controls.Add(this.guna2Button1);
-            this.groupBox2.Controls.Add(this.gunaBtnInsertReader);
-            this.groupBox2.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox2.Location = new System.Drawing.Point(9, 352);
-            this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(782, 131);
-            this.groupBox2.TabIndex = 5;
-            this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "Tác vụ";
+            this.groupBoxControlsComic.Controls.Add(this.gunaRefreshEditComic);
+            this.groupBoxControlsComic.Controls.Add(this.gunaBtnSaveEditComic);
+            this.groupBoxControlsComic.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBoxControlsComic.Location = new System.Drawing.Point(9, 352);
+            this.groupBoxControlsComic.Name = "groupBoxControlsComic";
+            this.groupBoxControlsComic.Size = new System.Drawing.Size(782, 131);
+            this.groupBoxControlsComic.TabIndex = 5;
+            this.groupBoxControlsComic.TabStop = false;
+            this.groupBoxControlsComic.Text = "Tác vụ";
             // 
-            // guna2Button1
+            // gunaRefreshEditComic
             // 
-            this.guna2Button1.AutoRoundedCorners = true;
-            this.guna2Button1.BorderRadius = 22;
-            this.guna2Button1.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button1.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2Button1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2Button1.FillColor = System.Drawing.Color.Black;
-            this.guna2Button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold);
-            this.guna2Button1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(146)))), ((int)(((byte)(227)))), ((int)(((byte)(169)))));
-            this.guna2Button1.Image = global::SM.Properties.Resources.icons8_save_30;
-            this.guna2Button1.Location = new System.Drawing.Point(472, 47);
-            this.guna2Button1.Name = "guna2Button1";
-            this.guna2Button1.Size = new System.Drawing.Size(183, 46);
-            this.guna2Button1.TabIndex = 6;
-            this.guna2Button1.Text = "Làm mới";
+            this.gunaRefreshEditComic.AutoRoundedCorners = true;
+            this.gunaRefreshEditComic.BorderRadius = 22;
+            this.gunaRefreshEditComic.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.gunaRefreshEditComic.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.gunaRefreshEditComic.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.gunaRefreshEditComic.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.gunaRefreshEditComic.FillColor = System.Drawing.Color.Black;
+            this.gunaRefreshEditComic.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold);
+            this.gunaRefreshEditComic.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(146)))), ((int)(((byte)(227)))), ((int)(((byte)(169)))));
+            this.gunaRefreshEditComic.Image = global::SM.Properties.Resources.icons8_save_30;
+            this.gunaRefreshEditComic.Location = new System.Drawing.Point(472, 47);
+            this.gunaRefreshEditComic.Name = "gunaRefreshEditComic";
+            this.gunaRefreshEditComic.Size = new System.Drawing.Size(183, 46);
+            this.gunaRefreshEditComic.TabIndex = 6;
+            this.gunaRefreshEditComic.Text = "Làm mới";
             // 
-            // gunaBtnInsertReader
+            // gunaBtnSaveEditComic
             // 
-            this.gunaBtnInsertReader.AutoRoundedCorners = true;
-            this.gunaBtnInsertReader.BorderRadius = 22;
-            this.gunaBtnInsertReader.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.gunaBtnInsertReader.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.gunaBtnInsertReader.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.gunaBtnInsertReader.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.gunaBtnInsertReader.FillColor = System.Drawing.Color.Black;
-            this.gunaBtnInsertReader.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold);
-            this.gunaBtnInsertReader.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(146)))), ((int)(((byte)(227)))), ((int)(((byte)(169)))));
-            this.gunaBtnInsertReader.Image = global::SM.Properties.Resources.icons8_save_30;
-            this.gunaBtnInsertReader.Location = new System.Drawing.Point(125, 47);
-            this.gunaBtnInsertReader.Name = "gunaBtnInsertReader";
-            this.gunaBtnInsertReader.Size = new System.Drawing.Size(183, 46);
-            this.gunaBtnInsertReader.TabIndex = 5;
-            this.gunaBtnInsertReader.Text = "Lưu";
+            this.gunaBtnSaveEditComic.AutoRoundedCorners = true;
+            this.gunaBtnSaveEditComic.BorderRadius = 22;
+            this.gunaBtnSaveEditComic.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.gunaBtnSaveEditComic.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.gunaBtnSaveEditComic.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.gunaBtnSaveEditComic.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.gunaBtnSaveEditComic.FillColor = System.Drawing.Color.Black;
+            this.gunaBtnSaveEditComic.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold);
+            this.gunaBtnSaveEditComic.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(146)))), ((int)(((byte)(227)))), ((int)(((byte)(169)))));
+            this.gunaBtnSaveEditComic.Image = global::SM.Properties.Resources.icons8_save_30;
+            this.gunaBtnSaveEditComic.Location = new System.Drawing.Point(125, 47);
+            this.gunaBtnSaveEditComic.Name = "gunaBtnSaveEditComic";
+            this.gunaBtnSaveEditComic.Size = new System.Drawing.Size(183, 46);
+            this.gunaBtnSaveEditComic.TabIndex = 5;
+            this.gunaBtnSaveEditComic.Text = "Lưu";
             // 
-            // groupBox1
+            // groupBoxIfComic
             // 
-            this.groupBox1.Controls.Add(this.numericUpDown1);
-            this.groupBox1.Controls.Add(this.comboBox3);
-            this.groupBox1.Controls.Add(this.comboBox2);
-            this.groupBox1.Controls.Add(this.comboBox1);
-            this.groupBox1.Controls.Add(this.textBox2);
-            this.groupBox1.Controls.Add(this.textBox1);
-            this.groupBox1.Controls.Add(this.label6);
-            this.groupBox1.Controls.Add(this.label5);
-            this.groupBox1.Controls.Add(this.label4);
-            this.groupBox1.Controls.Add(this.label3);
-            this.groupBox1.Controls.Add(this.label2);
-            this.groupBox1.Controls.Add(this.label1);
-            this.groupBox1.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox1.Location = new System.Drawing.Point(9, 77);
-            this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(782, 269);
-            this.groupBox1.TabIndex = 4;
-            this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Thông tin";
+            this.groupBoxIfComic.Controls.Add(this.numericUpDown1);
+            this.groupBoxIfComic.Controls.Add(this.comboBox3);
+            this.groupBoxIfComic.Controls.Add(this.comboBox2);
+            this.groupBoxIfComic.Controls.Add(this.comboBox1);
+            this.groupBoxIfComic.Controls.Add(this.textBox2);
+            this.groupBoxIfComic.Controls.Add(this.textBox1);
+            this.groupBoxIfComic.Controls.Add(this.lbPublishing);
+            this.groupBoxIfComic.Controls.Add(this.lbComicNumber);
+            this.groupBoxIfComic.Controls.Add(this.lbComicName);
+            this.groupBoxIfComic.Controls.Add(this.lbReaderName);
+            this.groupBoxIfComic.Controls.Add(this.lbAuthorName);
+            this.groupBoxIfComic.Controls.Add(this.lbIDComic);
+            this.groupBoxIfComic.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBoxIfComic.Location = new System.Drawing.Point(9, 77);
+            this.groupBoxIfComic.Name = "groupBoxIfComic";
+            this.groupBoxIfComic.Size = new System.Drawing.Size(782, 269);
+            this.groupBoxIfComic.TabIndex = 4;
+            this.groupBoxIfComic.TabStop = false;
+            this.groupBoxIfComic.Text = "Thông tin";
             // 
             // numericUpDown1
             // 
@@ -190,81 +190,81 @@ namespace SM
             this.textBox1.Size = new System.Drawing.Size(235, 31);
             this.textBox1.TabIndex = 6;
             // 
-            // label6
+            // lbPublishing
             // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(403, 199);
-            this.label6.Name = "label6";
-            this.label6.Padding = new System.Windows.Forms.Padding(0, 0, 30, 0);
-            this.label6.Size = new System.Drawing.Size(73, 23);
-            this.label6.TabIndex = 5;
-            this.label6.Text = "NXB";
+            this.lbPublishing.AutoSize = true;
+            this.lbPublishing.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbPublishing.Location = new System.Drawing.Point(403, 199);
+            this.lbPublishing.Name = "lbPublishing";
+            this.lbPublishing.Padding = new System.Windows.Forms.Padding(0, 0, 30, 0);
+            this.lbPublishing.Size = new System.Drawing.Size(73, 23);
+            this.lbPublishing.TabIndex = 5;
+            this.lbPublishing.Text = "NXB";
             // 
-            // label5
+            // lbComicNumber
             // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(403, 121);
-            this.label5.Name = "label5";
-            this.label5.Padding = new System.Windows.Forms.Padding(0, 0, 30, 0);
-            this.label5.Size = new System.Drawing.Size(108, 23);
-            this.label5.TabIndex = 4;
-            this.label5.Text = "Số lượng";
+            this.lbComicNumber.AutoSize = true;
+            this.lbComicNumber.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbComicNumber.Location = new System.Drawing.Point(403, 121);
+            this.lbComicNumber.Name = "lbComicNumber";
+            this.lbComicNumber.Padding = new System.Windows.Forms.Padding(0, 0, 30, 0);
+            this.lbComicNumber.Size = new System.Drawing.Size(108, 23);
+            this.lbComicNumber.TabIndex = 4;
+            this.lbComicNumber.Text = "Số lượng";
             // 
-            // label4
+            // lbComicName
             // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(403, 43);
-            this.label4.Name = "label4";
-            this.label4.Padding = new System.Windows.Forms.Padding(0, 0, 30, 0);
-            this.label4.Size = new System.Drawing.Size(120, 23);
-            this.label4.TabIndex = 3;
-            this.label4.Text = "Tên truyện";
+            this.lbComicName.AutoSize = true;
+            this.lbComicName.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbComicName.Location = new System.Drawing.Point(403, 43);
+            this.lbComicName.Name = "lbComicName";
+            this.lbComicName.Padding = new System.Windows.Forms.Padding(0, 0, 30, 0);
+            this.lbComicName.Size = new System.Drawing.Size(120, 23);
+            this.lbComicName.TabIndex = 3;
+            this.lbComicName.Text = "Tên truyện";
             // 
-            // label3
+            // lbReaderName
             // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(14, 199);
-            this.label3.Name = "label3";
-            this.label3.Padding = new System.Windows.Forms.Padding(0, 0, 10, 0);
-            this.label3.Size = new System.Drawing.Size(75, 23);
-            this.label3.TabIndex = 2;
-            this.label3.Text = "Tên NV";
+            this.lbReaderName.AutoSize = true;
+            this.lbReaderName.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbReaderName.Location = new System.Drawing.Point(14, 199);
+            this.lbReaderName.Name = "lbReaderName";
+            this.lbReaderName.Padding = new System.Windows.Forms.Padding(0, 0, 10, 0);
+            this.lbReaderName.Size = new System.Drawing.Size(75, 23);
+            this.lbReaderName.TabIndex = 2;
+            this.lbReaderName.Text = "Tên NV";
             // 
-            // label2
+            // lbAuthorName
             // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(14, 121);
-            this.label2.Name = "label2";
-            this.label2.Padding = new System.Windows.Forms.Padding(0, 0, 30, 0);
-            this.label2.Size = new System.Drawing.Size(122, 23);
-            this.label2.TabIndex = 1;
-            this.label2.Text = "Tên tác giả";
+            this.lbAuthorName.AutoSize = true;
+            this.lbAuthorName.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbAuthorName.Location = new System.Drawing.Point(14, 121);
+            this.lbAuthorName.Name = "lbAuthorName";
+            this.lbAuthorName.Padding = new System.Windows.Forms.Padding(0, 0, 30, 0);
+            this.lbAuthorName.Size = new System.Drawing.Size(122, 23);
+            this.lbAuthorName.TabIndex = 1;
+            this.lbAuthorName.Text = "Tên tác giả";
             // 
-            // label1
+            // lbIDComic
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(14, 43);
-            this.label1.Name = "label1";
-            this.label1.Padding = new System.Windows.Forms.Padding(0, 0, 30, 0);
-            this.label1.Size = new System.Drawing.Size(118, 23);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Mã truyện";
+            this.lbIDComic.AutoSize = true;
+            this.lbIDComic.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbIDComic.Location = new System.Drawing.Point(14, 43);
+            this.lbIDComic.Name = "lbIDComic";
+            this.lbIDComic.Padding = new System.Windows.Forms.Padding(0, 0, 30, 0);
+            this.lbIDComic.Size = new System.Drawing.Size(118, 23);
+            this.lbIDComic.TabIndex = 0;
+            this.lbIDComic.Text = "Mã truyện";
             // 
-            // pictureBox1
+            // pictureBoxEditComic
             // 
-            this.pictureBox1.Image = global::SM.Properties.Resources.icons8_create_46;
-            this.pictureBox1.Location = new System.Drawing.Point(172, 20);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(46, 46);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
-            this.pictureBox1.TabIndex = 7;
-            this.pictureBox1.TabStop = false;
+            this.pictureBoxEditComic.Image = global::SM.Properties.Resources.icons8_create_46;
+            this.pictureBoxEditComic.Location = new System.Drawing.Point(172, 20);
+            this.pictureBoxEditComic.Name = "pictureBoxEditComic";
+            this.pictureBoxEditComic.Size = new System.Drawing.Size(46, 46);
+            this.pictureBoxEditComic.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.pictureBoxEditComic.TabIndex = 7;
+            this.pictureBoxEditComic.TabStop = false;
             // 
             // guna2Elipse1
             // 
@@ -308,18 +308,18 @@ namespace SM
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(146)))), ((int)(((byte)(227)))), ((int)(((byte)(169)))));
             this.ClientSize = new System.Drawing.Size(801, 497);
-            this.Controls.Add(this.pictureBox1);
-            this.Controls.Add(this.label7);
-            this.Controls.Add(this.groupBox2);
-            this.Controls.Add(this.groupBox1);
+            this.Controls.Add(this.pictureBoxEditComic);
+            this.Controls.Add(this.lbTitleEditComic);
+            this.Controls.Add(this.groupBoxControlsComic);
+            this.Controls.Add(this.groupBoxIfComic);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "EditComic";
             this.Text = "Sửa thông tin";
-            this.groupBox2.ResumeLayout(false);
-            this.groupBox1.ResumeLayout(false);
-            this.groupBox1.PerformLayout();
+            this.groupBoxControlsComic.ResumeLayout(false);
+            this.groupBoxIfComic.ResumeLayout(false);
+            this.groupBoxIfComic.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxEditComic)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -327,24 +327,24 @@ namespace SM
 
         #endregion
 
-        private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.GroupBox groupBox2;
-        private Guna.UI2.WinForms.Guna2Button guna2Button1;
-        private Guna.UI2.WinForms.Guna2Button gunaBtnInsertReader;
-        private System.Windows.Forms.GroupBox groupBox1;
+        private System.Windows.Forms.PictureBox pictureBoxEditComic;
+        private System.Windows.Forms.Label lbTitleEditComic;
+        private System.Windows.Forms.GroupBox groupBoxControlsComic;
+        private Guna.UI2.WinForms.Guna2Button gunaRefreshEditComic;
+        private Guna.UI2.WinForms.Guna2Button gunaBtnSaveEditComic;
+        private System.Windows.Forms.GroupBox groupBoxIfComic;
         private System.Windows.Forms.NumericUpDown numericUpDown1;
         private System.Windows.Forms.ComboBox comboBox3;
         private System.Windows.Forms.ComboBox comboBox2;
         private System.Windows.Forms.ComboBox comboBox1;
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label lbPublishing;
+        private System.Windows.Forms.Label lbComicNumber;
+        private System.Windows.Forms.Label lbComicName;
+        private System.Windows.Forms.Label lbReaderName;
+        private System.Windows.Forms.Label lbAuthorName;
+        private System.Windows.Forms.Label lbIDComic;
         private Guna.UI2.WinForms.Guna2Elipse guna2Elipse1;
         private Guna.UI2.WinForms.Guna2Elipse guna2Elipse2;
         private Guna.UI2.WinForms.Guna2Elipse guna2Elipse3;

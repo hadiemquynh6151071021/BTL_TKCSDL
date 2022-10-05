@@ -58,6 +58,66 @@
     <Compile Include="EditStaff.Designer.cs">
       <DependentUpon>EditStaff.cs</DependentUpon>
     </Compile>
+    <Compile Include="EditReader.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditReader.Designer.cs">
+      <DependentUpon>EditReader.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EditAuthor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditAuthor.Designer.cs">
+      <DependentUpon>EditAuthor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EditCoupon.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditCoupon.Designer.cs">
+      <DependentUpon>EditCoupon.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ResultSearchCoupon.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ResultSearchCoupon.Designer.cs">
+      <DependentUpon>ResultSearchCoupon.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MenuHome.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MenuHome.Designer.cs">
+      <DependentUpon>MenuHome.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InsertCoupon.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InsertCoupon.Designer.cs">
+      <DependentUpon>InsertCoupon.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ResultSearchAuthor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ResultSearchAuthor.Designer.cs">
+      <DependentUpon>ResultSearchAuthor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InsertAuthor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InsertAuthor.Designer.cs">
+      <DependentUpon>InsertAuthor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ResulfSearchReader.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ResulfSearchReader.Designer.cs">
+      <DependentUpon>ResulfSearchReader.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InsertReader.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InsertReader.Designer.cs">
+      <DependentUpon>InsertReader.cs</DependentUpon>
+    </Compile>
     <Compile Include="ResultSearchStaff.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -94,17 +154,40 @@
     <Compile Include="InsertComic.Designer.cs">
       <DependentUpon>InsertComic.cs</DependentUpon>
     </Compile>
-    <Compile Include="Home.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include=".Designer.cs">
-      <DependentUpon>Home.cs</DependentUpon>
-      <SubType>Form</SubType>
-    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="EditStaff.resx">
       <DependentUpon>EditStaff.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditReader.resx">
+      <DependentUpon>EditReader.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditAuthor.resx">
+      <DependentUpon>EditAuthor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditCoupon.resx">
+      <DependentUpon>EditCoupon.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ResultSearchCoupon.resx">
+      <DependentUpon>ResultSearchCoupon.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MenuHome.resx">
+      <DependentUpon>MenuHome.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InsertCoupon.resx">
+      <DependentUpon>InsertCoupon.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InsertAuthor.resx">
+      <DependentUpon>InsertAuthor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ResulfSearchReader.resx">
+      <DependentUpon>ResulfSearchReader.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InsertReader.resx">
+      <DependentUpon>InsertReader.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ResultSearchAuthor.resx">
+      <DependentUpon>ResultSearchAuthor.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ResultSearchStaff.resx">
       <DependentUpon>ResultSearchStaff.cs</DependentUpon>
@@ -123,9 +206,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="InsertComic.resx">
       <DependentUpon>InsertComic.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Home.resx">
-      <DependentUpon>Home.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
